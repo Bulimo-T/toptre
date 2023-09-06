@@ -1,0 +1,183 @@
+/* Add this CSS to your styles.css file */
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Set your desired background color */
+    margin: 0; /* Add this line to remove any margin */
+    padding: 0; /* Add this line to remove any padding */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 150px; /* Reduce the logo size */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Navigation link color */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
+
+
+/* Add this CSS to your membership.css file */
+nav ul li a.active {
+    text-decoration: none; /* Remove default underline */
+    border-bottom: 2px solid red; /* Add a 2px solid underline with your desired color */
+    padding-bottom: 3px; /* Adjust the padding to control the underline's distance from the text */
+}
+
+/* Add this CSS to your styles.css file */
+/* Add this CSS to your styles.css file */
+.content-section {
+    display: flex;
+    flex: 1; /* Make the content section expand to fill available space */
+    gap: 20px;
+    background-image: url('img/Top Trader Kenya.png'); /* Set the path to your background image */
+    background-size: cover; /* Cover the entire section with the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add this CSS to your styles.css file */
+.left-section {
+    background-color: #007bff; /* Background color for left section */
+    color: #fff; /* Text color for left section */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.left-section h2 {
+    font-size: 28px; /* Font size for the heading */
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 16px; /* Font size for the paragraph text */
+    margin-bottom: 20px;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; /* Button background color */
+    color: #007bff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition for button background color change */
+}
+
+.join-button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+    color: #fff; /* Change button text color on hover */
+}
+
+.left-section:hover {
+    background-color: #0056b3; /* Change left section background color on hover */
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px; /* Reduce padding for small screens */
+    }
+
+    .content-section {
+        flex-direction: column; /* Change to a column layout on small screens */
+    }
+
+    .left-section,
+    .right-section {
+        flex: 1; /* Make both sections take up the full width */
+        padding: 20px;
+    }
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px; /* Reduce padding for small screens */
+    }
+}
+
+/* Footer styles */
+footer {
+    margin: 0; /* Remove any margin */
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change to your preferred hover color */
+}

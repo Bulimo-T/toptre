@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <!-- Add your CSS link here for styling -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Add your TradingView widget CSS here -->
+    <link rel="stylesheet" href="tradingview-widget.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/WhatsApp_Image_2023-03-11_at_12.29.54_AM-removebg-preview (1).png" alt="Your Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="merch.html">Merch</a></li>
+                <li><a href="courses.html">Courses/Mentorship</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <div class="left-section">
+            <h2>About Us</h2>
+            <p>
+                Experienced Traders: Learn from seasoned traders with a passion for teaching.<br></t>
+                Comprehensive Courses: From basics to advanced strategies, we've got you covered.<br>
+                Practical Learning: Gain hands-on experience through live sessions and real-time analysis.<br>
+                Personalized Support: Our team is here to guide you every step of the way.<br>
+                Thriving Community: Join our network of traders to share insights and grow together.<br>
+                Unlock the potential of forex trading with TP Trader Kenya today!
+            </p>            
+            <a href="membership.html" class="join-button">Join Us</a>
+        </div>
+
+
+        <div class="right-section">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright">
+                    <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a>
+                </div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+                {
+                "interval": "1m",
+                "width": 351,
+                "isTransparent": false,
+                "height": 450,
+                "symbol": "OANDA:EURUSD",
+                "showIntervalTabs": true,
+                "locale": "en",
+                "colorTheme": "dark"
+                }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+    </section>
+
+    <!-- Add your content for the Home page here -->
+
+    <footer>
+        <p class="contact-info">Contact us on <a href="https://t.me/toptraderke" target="_blank"><i class="fab fa-telegram"></i> toptraderke</a>.</p>
+        <div class="social-icons">
+            <a href="https://instagram.com/toptraderkenya?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@jysonpaul4" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/254700389685" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:+254700389685" ><i class="fas fa-phone"></i></a>
+            <a href="toptraderkenya@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
